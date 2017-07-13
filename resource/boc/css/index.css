@@ -1,0 +1,317 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.login-index {
+	height: 100%;
+	width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px
+    right: 0px;
+	background: url(../images/login_bg.jpg) fixed center center;
+	background-size: cover;
+	position: absolute;
+}
+.logo_box{
+	height: 450px;
+    width: 300px;
+	color: #EEE;
+	position: absolute;
+	left: 50%;
+	top:20%;
+	margin-left: -152px;
+}
+.logo_box h3{
+	text-align: center;
+	height: 20px;
+	font: 20px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei",sans-serif;
+	color: #FFFFFF;
+	height: 20px;
+	line-height: 20px;
+	padding:0 0 35px 0;
+}
+.container{
+/*	width: 280px;
+	height: 485px;*/
+}
+.logon_inof{
+	width: 100%;
+	min-height: 450px;
+	padding-top: 35px;
+	position: relative;
+}		
+.input_outer{
+	height: 35px;
+	padding: 0 5px;
+	margin-bottom: 33px;
+	border-radius: 50px;
+	position: relative;
+	background-color: rgba(255,255,255,0.2);
+}
+.u_user{
+	width: 25px;
+	height: 25px;
+	background: url(../images/login-user.png) no-repeat;
+	position: absolute;
+	margin: 10px 13px;
+}
+.us_uer{
+	width: 25px;
+	height: 25px;
+	background: url(../images/login-pass.png) no-repeat;
+	position: absolute;
+	margin: 9px 13px;
+}
+.l-login{
+	position: absolute;
+	z-index: 1;
+	left: 55px;
+	top: 0;
+	height: 35px;
+	font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	line-height: 35px;
+}
+.input_outer label{
+	color: rgb(255, 255, 255);
+	display: block;
+}
+.logintext{
+	width: 220px;
+	height: 35px;
+	outline: none;
+	display: inline-block;
+	font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	margin-left: 50px;
+	border: none;
+	background: none;
+	line-height: 35px;
+}
+/*///*/
+.login-submit {
+	width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border: 0 none;
+    background-color: #1562e2;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+}
+.logo_top {
+	margin-bottom: 110px;
+	display: inline-block;
+}
+.logo_top img {
+    width: 100%;
+    vertical-align: middle;
+}
+.copy-rights {
+	color: #c5c8cd;
+	font-family: "微软雅黑";
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -152px;
+}
+
+.home-index {
+	height: 100%;
+	width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px
+    right: 0px;
+	background: url(../images/home_bg.jpg) fixed center center;
+	background-size: cover;
+	position: absolute;
+}
+.home-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    max-height: 110px;
+    min-height: 84px;
+    padding: 20px 2%;
+    background: rgba(190,200,220,0.2);
+    width: 100%;
+    box-sizing: border-box;
+}
+.home-header-left {
+	height: 100%;
+    width: auto;
+    float: left;
+}
+.home-header-left>img {
+	height: 100%;
+    width: auto;
+    float: left;
+}
+.home-header-left>span {
+    vertical-align: middle;
+    float: left;
+    color: #fff;
+    font: 30px "microsoft yahei";
+    height: 100%;
+    margin-left: 4vh;
+    margin-top: 0.7vh;
+}
+.home-header-right {
+	float: right;
+    display: table;
+    height: 100%;
+    overflow: hidden;
+}
+.home-header-right>div {
+	display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.home-header-right div>span {
+	display: inline-block;
+    margin-right: 40px;
+    vertical-align: middle;
+    color: #fff;
+    font: 18px "microsoft yahei";
+    background: url(../images/login-name.png) no-repeat 0;
+    padding-left: 35px;
+}
+.home-header-right a {
+	/*display: inline-block;*/
+    height: 45px;
+    padding-left: 32px;
+    line-height: 45px;
+    background: url(../images/login-out.png) no-repeat 0;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    font: 18px "microsoft yahei";
+}
+.home-main {
+	display: table;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    padding: 22vh 0vh;
+    padding-bottom: 0px;
+}
+.home-main-div {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    min-width: 640px;
+    margin: 0 auto;
+}
+.home-main-a {
+	display: inline-block;
+	float: left;
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+    min-width: 180px;
+    min-height: 180px;
+    padding-top: 12%;
+    margin-left: 20%;
+    color: #fff;
+    font: 19px "microsoft yahei";
+    box-sizing: border-box;
+    border-radius: 18px;
+    text-decoration: none; 
+    background: url(../images/icon-bg1.png) no-repeat;
+    background-size: cover;
+    transition: box-shadow 1s;
+}
+.home-main-b {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+    min-width: 180px;
+    min-height: 180px;
+    padding-top: 12%;
+    margin-left: 59%;
+    color: #fff;
+    font: 19px "microsoft yahei";
+    box-sizing: border-box;
+    border-radius: 18px;
+    text-decoration: none; 
+    background: url(../images/icon-bg1.png) no-repeat;
+    background-size: cover;
+    transition: box-shadow 1s;
+}
+.icon-dataCenter {
+	display: inline-block;
+    width: 55%;
+    margin-top: -36%;
+    margin-bottom: 12%;
+    border: 0px;
+}
+.icon-dataCenter img {
+    width: 75%;
+    background-size: cover;
+    border: 0px;
+}
+.icon-admin {
+	display: inline-block;
+    width: 55%;
+    margin-top: -36%;
+    margin-bottom: 12%;
+    border: 0px;
+}
+.icon-admin img {
+    width: 75%;
+    background-size: cover;
+    border: 0px;
+}
+.home-main-a:hover {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+    min-width: 180px;
+    min-height: 180px;
+    padding-top: 12%;
+    margin-left: 20%;
+    color: #fff;
+    font: 19px "microsoft yahei";
+    box-sizing: border-box;
+    border-radius: 18px;
+    text-decoration: none; 
+	background: url(../images/icon-bg2.png) no-repeat;
+	background-size: cover;
+    box-shadow: 0 0 30px 8px rgba(171,171,171,.5);
+}
+.home-main-b:hover {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+    min-width: 180px;
+    min-height: 180px;
+    padding-top: 12%;
+    margin-left: 59%;
+    color: #fff;
+    font: 19px "microsoft yahei";
+    box-sizing: border-box;
+    border-radius: 18px;
+    text-decoration: none; 
+    background: url(../images/icon-bg2.png) no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 30px 8px rgba(171,171,171,.5);
+}
